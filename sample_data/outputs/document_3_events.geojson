@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "document_id": 3,
+        "chunk_id": 3,
+        "time_raw": "1812 года",
+        "time_normalized_start": "1812-01-01",
+        "time_normalized_end": "1812-12-31",
+        "period_label": "1812",
+        "place_name_raw": "Москве",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "movement",
+        "action": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "description": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "confidence": 0.72,
+        "source_fragment": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-21T23:30:07.174190+00:00",
+        "updated_at": "2026-03-21T23:30:07.174190+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "document_id": 3,
+        "chunk_id": 3,
+        "time_raw": "19 октября 1812 года",
+        "time_normalized_start": "1812-10-19",
+        "time_normalized_end": "1812-10-19",
+        "period_label": null,
+        "place_name_raw": "Москвы",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "march",
+        "action": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "description": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "confidence": 0.87,
+        "source_fragment": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-21T23:30:07.174190+00:00",
+        "updated_at": "2026-03-21T23:30:07.174190+00:00"
+      }
+    }
+  ]
+}

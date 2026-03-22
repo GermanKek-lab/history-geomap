@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.818, 55.529]
+      },
+      "properties": {
+        "id": 1,
+        "event_type": "battle",
+        "time_raw": "7 сентября 1812 года",
+        "description": "Крупное сражение между русской армией и армией Наполеона",
+        "place_name_normalized": "Бородино",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.9684, 55.1488]
+      },
+      "properties": {
+        "id": 2,
+        "event_type": "march",
+        "time_raw": "1812 года",
+        "description": "Русская армия начала поход преследования после оставления Москвы",
+        "place_name_normalized": "Тарутино",
+        "confidence": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.5254, 44.6167]
+      },
+      "properties": {
+        "id": 3,
+        "event_type": "memoir_reference",
+        "time_raw": "Летом 1855 года",
+        "description": "Офицер вспоминал о бомбардировке и писал в дневнике",
+        "place_name_normalized": "Севастополь",
+        "confidence": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.3318, 57.8194]
+      },
+      "properties": {
+        "id": 4,
+        "event_type": "movement",
+        "time_raw": "В начале XIX века",
+        "description": "Хроника фиксирует движение городского купечества и общественные собрания",
+        "place_name_normalized": "Псков",
+        "confidence": 0.68
+      }
+    }
+  ]
+}

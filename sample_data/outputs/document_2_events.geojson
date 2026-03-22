@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.818,
+          55.529
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "7 сентября 1812 года",
+        "time_normalized_start": "1812-09-07",
+        "time_normalized_end": "1812-09-07",
+        "period_label": null,
+        "place_name_raw": "Бородино",
+        "place_name_normalized": "Бородино",
+        "latitude": 55.529,
+        "longitude": 35.818,
+        "event_type": "battle",
+        "action": "7 сентября 1812 года у села Бородино произошло Бородинское сражение.",
+        "description": "7 сентября 1812 года у села Бородино произошло Бородинское сражение.",
+        "confidence": 0.91,
+        "source_fragment": "7 сентября 1812 года у села Бородино произошло Бородинское сражение.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.818,
+          55.529
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "7 сентября 1812 года",
+        "time_normalized_start": "1812-09-07",
+        "time_normalized_end": "1812-09-07",
+        "period_label": null,
+        "place_name_raw": "Бородино",
+        "place_name_normalized": "Бородино",
+        "latitude": 55.529,
+        "longitude": 35.818,
+        "event_type": "battle",
+        "action": "В этой битве русская армия под командованием Михаила Кутузова сражалась против французской армии Нап",
+        "description": "В этой битве русская армия под командованием Михаила Кутузова сражалась против французской армии Наполеона.",
+        "confidence": 0.91,
+        "source_fragment": "В этой битве русская армия под командованием Михаила Кутузова сражалась против французской армии Наполеона.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.818,
+          55.529
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "7 сентября 1812 года",
+        "time_normalized_start": "1812-09-07",
+        "time_normalized_end": "1812-09-07",
+        "period_label": null,
+        "place_name_raw": "Бородино",
+        "place_name_normalized": "Бородино",
+        "latitude": 55.529,
+        "longitude": 35.818,
+        "event_type": "battle",
+        "action": "Сражение отличалось чрезвычайной ожесточённостью и привело к огромным потерям с обеих сторон.",
+        "description": "Сражение отличалось чрезвычайной ожесточённостью и привело к огромным потерям с обеих сторон.",
+        "confidence": 0.91,
+        "source_fragment": "Сражение отличалось чрезвычайной ожесточённостью и привело к огромным потерям с обеих сторон.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "19 октября 1812 года",
+        "time_normalized_start": "1812-10-19",
+        "time_normalized_end": "1812-10-19",
+        "period_label": null,
+        "place_name_raw": "Москвы",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "march",
+        "action": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "description": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "confidence": 0.87,
+        "source_fragment": "19 октября 1812 года армия Наполеона начала отступление из Москвы.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "19 октября 1812 года",
+        "time_normalized_start": "1812-10-19",
+        "time_normalized_end": "1812-10-19",
+        "period_label": null,
+        "place_name_raw": "Москвы",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "march",
+        "action": "Отступление проходило через разорённые территории и сопровождалось постоянными потерями.",
+        "description": "Отступление проходило через разорённые территории и сопровождалось постоянными потерями.",
+        "confidence": 0.87,
+        "source_fragment": "Отступление проходило через разорённые территории и сопровождалось постоянными потерями.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "19 октября 1812 года",
+        "time_normalized_start": "1812-10-19",
+        "time_normalized_end": "1812-10-19",
+        "period_label": null,
+        "place_name_raw": "Москвы",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "movement",
+        "action": "Русские войска и партизанские отряды наносили удары по французской армии на всём пути её движения.",
+        "description": "Русские войска и партизанские отряды наносили удары по французской армии на всём пути её движения.",
+        "confidence": 0.78,
+        "source_fragment": "Русские войска и партизанские отряды наносили удары по французской армии на всём пути её движения.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "1812 года",
+        "time_normalized_start": "1812-01-01",
+        "time_normalized_end": "1812-12-31",
+        "period_label": "1812",
+        "place_name_raw": "Москве",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "battle",
+        "action": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "description": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "confidence": 0.85,
+        "source_fragment": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6173,
+          55.7558
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "document_id": 2,
+        "chunk_id": 2,
+        "time_raw": "1812 года",
+        "time_normalized_start": "1812-01-01",
+        "time_normalized_end": "1812-12-31",
+        "period_label": "1812",
+        "place_name_raw": "Москве",
+        "place_name_normalized": "Москва",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "event_type": "movement",
+        "action": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "description": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "confidence": 0.72,
+        "source_fragment": "После этого обе армии продолжили движение к Москве, готовясь к решающему столкновению.",
+        "is_reviewed": false,
+        "reviewer_comment": null,
+        "created_at": "2026-03-22T16:01:34.702679+00:00",
+        "updated_at": "2026-03-22T16:01:34.702679+00:00"
+      }
+    }
+  ]
+}
