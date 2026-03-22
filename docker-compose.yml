@@ -1,0 +1,75 @@
+version: "3.9"
+
+services:
+  db:
+    # `postgis/postgis` currently publishes amd64-only images, so Apple Silicon
+    # needs x86_64 emulation unless you override this with `DB_PLATFORM`.
+    platform: ${DB_PLATFORM:-linux/amd64}
+    image: postgis/postgis:16-3.5-alpine
+    container_name: geoautomap-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: geoautomap
+      POSTGRES_USER: geoautomap
+      POSTGRES_PASSWORD: geoautomap
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U geoautomap -d geoautomap"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: geoautomap-backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://geoautomap:geoautomap@db:5432/geoautomap
+      ALEMBIC_DATABASE_URL: postgresql+psycopg://geoautomap:geoautomap@db:5432/geoautomap
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_PORT: 8000
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+      UPLOAD_DIR: /workspace/data/uploads
+      EXPORT_DIR: /workspace/sample_data/outputs
+    volumes:
+      - ./data:/workspace/data
+      - ./sample_data:/workspace/sample_data
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8000/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: geoautomap-frontend
+    restart: unless-stopped
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000
+    ports:
+      - "5173:5173"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:5173 >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
